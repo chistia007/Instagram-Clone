@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="12dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/logo"/>
+
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_tetxt_background"
+        android:hint="Email"
+        android:padding="10dp"
+        android:id="@+id/edtEmail"
+        />
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_tetxt_background"
+        android:hint="Password"
+        android:padding="10dp"
+        android:id="@+id/edtPassword"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="15dp"
+        android:text="Log In"
+        android:padding="10dp"
+        android:id="@+id/btnLogin"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New to Instagram? Register"
+        android:layout_marginTop="15dp"
+        android:id="@+id/txtLoginUser"
+        />
+
+</LinearLayout>
